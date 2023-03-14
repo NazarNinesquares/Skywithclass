@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,600,700&display=swap);
+
 *,
 *::before,
 *::after {
@@ -16,10 +20,10 @@ body {
 
 body {
   line-height: 1;
-  font-family: "Arial";
-  font-size: 16px;
-  font-weight: 400;
-  color: #000;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -28,7 +32,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -59,10 +63,10 @@ button {
   -moz-appearance: none;
   appearance: none;
   background-color: transparent;
-  font-family: "Arial";
-  font-size: 16px;
-  font-weight: 400;
-  color: #000;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -72,9 +76,9 @@ textarea {
   outline: none;
   border: none;
   background-color: transparent;
-  font-family: "Arial";
-  font-size: 16px;
-  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 300;
 }
 
 h1,
@@ -83,9 +87,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Arial";
-  font-size: 16px;
-  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 300;
 }
 
 body._lock {
@@ -111,7 +115,7 @@ body._lock {
 }
 
 ._cont {
-  max-width: 1950px;
+  max-width: 1375px;
   margin: 0 auto;
   padding: 0 15px;
 }

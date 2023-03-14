@@ -1,24 +1,26 @@
 //<================================================================ FONTS ===============================================================>\\
 
-//&display=swap - оптимізація підвантаження шрифта
-//&subset=cyrillic-ext - підвантаження кириличної версії
+//&display=swap - оптимізація підвантаження шрифта 300 600 
+//&subset=cyrillic-ext - підвантаження кириличної версії 600 300 700 300i 400
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,600,700&display=swap);
 
 // Змінна font-family
-$ff: 'Arial';
+$ff: 'Poppins';
 
 // Змінна font-size
-$fs: 16px;
+$fs: 12px;
 
 // Змінна font-weight
-$fw: 400;
+$fw: 300;
 
 // Змінна color
-$fc: #000;
+$fc: #fff;
 
 //<============================================================ CUSTOM RESET ============================================================>\\
 
 // Максимальна ширина обмежуючого контейнера
-$mw: 1920px;
+$mw: 1345px;
 
 // Фоновий колір для body
 $bgc: #fff;
