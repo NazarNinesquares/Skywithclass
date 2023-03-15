@@ -1,5 +1,9 @@
-$('.burger').on('click', function () {
-	$(this).toggleClass('_active');
-	$('.menu').toggleClass('_active');
-	$('body').toggleClass('_lock');
+var $ = jQuery;
+
+$(function() {
+	
+	$('.start-tab-nav__item').on('click', function () {
+		console.log($(this).data('tab'));
+		$('.start-tab-nav__selector').attr('data-pos', $(this).data('tab'))
+	})
 })
