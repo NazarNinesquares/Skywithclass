@@ -392,6 +392,7 @@ main {
 	background: #0000001a;
 	backdrop-filter: blur(25px);
 	border-radius: 25px;
+	margin-bottom: 30px;
 
 
 	// .start-tab-nav__selector
@@ -424,9 +425,51 @@ main {
 	}
 }
 
+.right-start {
+
+	// .right-start__tab
+
+	&__tab {
+	}
+}
+
 .start-tab {
+	background: #0000001a;
+	backdrop-filter: blur(25px);
+	border-radius: 35px;
+	overflow: hidden;
+	padding: 38px 35px 0;
 
 	// .start-tab__item
+
 	&__item {
+	}
+}
+
+.form-item {
+	display: none;
+
+	&._active {
+		display: block;
+	}
+
+	// .form-item__inbox
+
+	&__inbox {
+
+		// .form-item__inbox_dual
+
+		&_dual {
+		}
+
+		// .form-item__inbox_triple
+
+		&_triple {
+		}
+	}
+
+	// .form-item__input
+
+	&__input {
 	}
 }

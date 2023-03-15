@@ -387,6 +387,7 @@ main {
   -webkit-backdrop-filter: blur(25px);
           backdrop-filter: blur(25px);
   border-radius: 25px;
+  margin-bottom: 30px;
 }
 
 .start-tab-nav__selector {
@@ -416,6 +417,23 @@ main {
   height: 67px;
   font: 700 16px/1.5 "Poppins";
   z-index: 1;
+}
+
+.start-tab {
+  background: #0000001a;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border-radius: 35px;
+  overflow: hidden;
+  padding: 38px 35px 0;
+}
+
+.form-item {
+  display: none;
+}
+
+.form-item._active {
+  display: block;
 }
 
 @media (max-width: 768px) {
