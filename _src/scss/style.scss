@@ -31,10 +31,6 @@ $bgc: gray;
 //<====================================================== БАГАТОРАЗОВЕ ВИКОРИСТАННЯ =====================================================>\\
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(125.55deg, rgba(0, 0, 0, 0.6) 12.82%, rgba(0, 0, 0, 0) 70.84%), url(../img/main/main-bg.jpg) center/cover no-repeat;
 }
 
@@ -261,14 +257,12 @@ main {
 //<================================================================= START =================================================================>\\
 
 .start {
-	width: 100%;
 
 	// .start__cont
 	&__cont {
 		display: flex;
 		column-gap: 20px;
-		margin-top: 150px;
-		margin-bottom: 50px;
+		margin: 215px auto;
 	}
 
 	// .start__left
@@ -413,12 +407,10 @@ main {
 
 		&[data-pos='1'] {
 			left: 0;
-			right: unset;
 		}
 		
 		&[data-pos='2'] {
-			left: unset;
-			right: 0;
+			left: 50%;
 		}
 	}
 
