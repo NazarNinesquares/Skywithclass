@@ -63,7 +63,8 @@ button {
 }
 
 input,
-textarea {
+textarea,
+select {
 	resize: none;
 	outline: none;
 	border: none;
@@ -71,6 +72,14 @@ textarea {
 	font-family: $ff;
 	font-size: $fs;
 	font-weight: $fw;
+	color: $fc;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+select::-ms-expand {
+	display: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
