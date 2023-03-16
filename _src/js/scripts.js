@@ -8,4 +8,14 @@ $(function() {
 		$('.form-item').removeClass('_active');
 		$('.form-item[data-tab="'+ $(this).data('tab') +'"]').addClass('_active');
 	})
+
+	$('#sandbox-container .input-daterange').datepicker({
+		autoclose: true,
+		todayHighlight: true
+	});
+
+	$('#sandbox-container input').datepicker({
+		autoclose: true,
+		todayHighlight: true
+	});
 })

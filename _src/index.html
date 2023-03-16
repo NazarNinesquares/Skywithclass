@@ -12,6 +12,8 @@
 	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap-datepicker3.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Skywithclass</title>
 </head>
@@ -115,14 +117,16 @@
 									<img src='img/main/plain-to.svg' alt=''>
 								</div>
 							</div>
-							<div class="form-item__inbox form-item__inbox_dual">
-								<div class="form-item__input">
-									<input type="date" name="departing" placeholder="Departing">
-									<img src='img/main/date.svg' alt=''>
-								</div>
-								<div class="form-item__input">
-									<input type="date" name="return" placeholder="Return">
-									<img src='img/main/date.svg' alt=''>
+							<div class="form-item__inbox form-item__inbox_dual" id="sandbox-container">
+								<div class="input-daterange input-group" id="datepicker">
+									<div class="form-item__input">
+										<input type="text" class="input-sm form-control" name="start"/>
+										<img src='img/main/date.svg' alt=''>
+									</div>
+									<div class="form-item__input">
+										<input type="text" class="input-sm form-control" name="end"/>
+										<img src='img/main/date.svg' alt=''>
+									</div>
 								</div>
 							</div>
 							<div class="form-item__inbox form-item__inbox_select">
@@ -162,9 +166,9 @@
 									<img src='img/main/plain-to.svg' alt=''>
 								</div>
 							</div>
-							<div class="form-item__inbox">
+							<div class="form-item__inbox" id="sandbox-container">
 								<div class="form-item__input">
-									<input type="date" name="departing" placeholder="Departing">
+									<input type="text" class="form-control" name="start">
 									<img src='img/main/date.svg' alt=''>
 								</div>
 							</div>
@@ -195,7 +199,32 @@
 							</div>
 						</form>
 					</div>
-					<div class="right-start__features"></div>
+					<div class="right-start__features features-start">
+						<div class="features-start__col">
+							<div class="features-start__ibox">
+								<img src='img/main/accredited.svg' alt=''>
+							</div>
+							<p class="features-start__name">
+								ACCREDITED BUSINESESS
+							</p>
+						</div>
+						<div class="features-start__col">
+							<div class="features-start__ibox">
+								<img src='img/main/trustpilot.svg' alt=''>
+							</div>
+							<p class="features-start__name">
+								TRUSTPILOT TOP RATED
+							</p>
+						</div>
+						<div class="features-start__col">
+							<div class="features-start__ibox">
+								<img src='img/main/live.svg' alt=''>
+							</div>
+							<p class="features-start__name">
+								LIVE CONCIERGE
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -204,7 +233,10 @@
 	@@include('_footer.html')
 </div>
 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="libs/jquery.js"></script>
+	<script src="libs/bootstrap-datepicker.min.js"></script>
+	<script src="libs/bootstrap-datepicker.en-GB.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 </body>
 
