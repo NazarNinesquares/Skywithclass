@@ -28,6 +28,13 @@ $(function() {
 		$('.result__item.content').addClass('_active');
 	})
 
+	$('.form-item__inbox_submit input').on('click', function (e) {
+		
+		e.preventDefault();
+		e.stopPropagation();
+		window.location.pathname = '/Skywithclass/result.html'
+	})
+
 	$('.bottom-content__submit input').on('click', function (e) {
 		
 		e.preventDefault();
