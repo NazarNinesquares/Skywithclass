@@ -637,17 +637,17 @@ h1 {
 .result__cont {
   position: relative;
   max-width: 1104px;
-  min-height: 450px;
+  min-height: 540px;
   margin: 215px auto 200px;
 }
 
 .result__item {
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 100%;
   opacity: 0;
   visibility: hidden;
@@ -1082,6 +1082,7 @@ h1 {
   }
 
   .result__cont {
+    min-height: 480px;
     margin: 200px auto 100px;
   }
 
@@ -1386,6 +1387,7 @@ h1 {
   }
 
   .result__cont {
+    min-height: 440px;
     margin: 250px auto 200px;
   }
 
