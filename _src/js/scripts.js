@@ -24,8 +24,8 @@ $(function() {
 
 	$('.loader__line').on('animationend', function() {
 		
-		// $('.result__item.loader').removeClass('_active');
-		// $('.result__item.content').addClass('_active');
+		$('.result__item.loader').removeClass('_active');
+		$('.result__item.content').addClass('_active');
 	})
 
 	$('.form-item__inbox_submit input').on('click', function (e) {
