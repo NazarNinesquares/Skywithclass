@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Skywithclass - Result</title>
+</head>
+
+<body>
+
+<div class="wrapper">
+	@@include('_header.html')
+
+	<main class="main">
+		<section class="result">
+			<div class='result__cont'>
+				<div class="result__item loader _active">
+					<h1 class="loader__title">Looking for flights</h1>
+					<p class="loader__text">
+						This will take a few moments
+					</p>
+					<div class="loader__box">
+						<span class="loader__line"></span>
+					</div>
+				</div>
+				<div class="result__item content">
+					<a class="content__back" href="index.html"></a>
+					<div class="content__box">
+						<div class="content__top top-content">
+							<div class="top-content__box">
+								<div class="top-content__row">
+									<div class="top-content__from">
+										<p class="top-content__name">FORT POLK - <strong>POE</strong></p>
+										<p class="top-content__date">23 Mar 2023</p>
+									</div>
+									<div class="top-content__arrow"></div>
+									<div class="top-content__to">
+										<p class="top-content__name">BERLIN - <strong>BER</strong></p>
+										<p class="top-content__date">31 Mar 2023**</p>
+									</div>
+								</div>
+								<div class="top-content__row">
+									<div class="top-content__from">
+										<p class="top-content__name">BERLIN - <strong>BER</strong></p>
+										<p class="top-content__date">31 Mar 2023</p>
+									</div>
+									<div class="top-content__arrow"></div>
+									<div class="top-content__to">
+										<p class="top-content__name">FORT POLK - <strong>POE</strong></p>
+										<p class="top-content__date">23 Mar 2023**</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<form class="content__bottom bottom-content" action="#">
+							<p class="bottom-content__heading">Fill in the form to request flight details</p>
+							<div class="bottom-content__inbox">
+								<div class="bottom-content__input">
+									<input type="text" name="name" placeholder="Name">
+								</div>
+								<div class="bottom-content__input">
+									<input type="email" name="email" placeholder="Email">
+								</div>
+								<div class="bottom-content__input">
+									<input type="tel" name="phone" placeholder="Phone">
+								</div>
+							</div>
+							<p class="bottom-content__text">
+								By submitting my details I agree to be contacted to discuss my travel plans. Privacy Policy* Price shown is a Round trip fare in business class per person and based on weekday travel (Monday-Thursday). The price is total includes all taxes and fees and is in USD. The fares will vary based on class of travel availability, airline and city of departure. business-skies.com will not identify all travel partners or details so not to compete with retail sales of our partners. Savings up to 70% off are based on un-restricted fares of major airlines and can vary depending on the fare rules. All fares are non-refundable and cannot be exchanged or transferred. Please call us directly to check the most current prices and availability. Other restrictions may apply. All fares are subject to change until ticketed.
+							</p>
+							<div class="bottom-content__submit">
+								<input type="submit" value="Request flight details">
+							</div>
+						</form>
+					</div>
+					<p class="content__text">
+						By submitting my details I agree to be contacted to discuss my travel plans. Privacy Policy* Price shown is a Round trip fare in business class per person and based on weekday travel (Monday-Thursday). The price is total includes all taxes and fees and is in USD. The fares will vary based on class of travel availability, airline and city of departure. business-skies.com will not identify all travel partners or details so not to compete with retail sales of our partners. Savings up to 70% off are based on un-restricted fares of major airlines and can vary depending on the fare rules. All fares are non-refundable and cannot be exchanged or transferred. Please call us directly to check the most current prices and availability. Other restrictions may apply. All fares are subject to change until ticketed.
+					</p>
+				</div>
+				<div class="result__item thanks">
+					<p class="thanks__title">
+						Thank you!
+					</p>
+					<p class="thanks__text">
+						Our team will contact you as soon as we find a suitable offer
+					</p>
+					<a class="thanks__link" href="index.html">
+						Go to main page
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	@@include('_footer.html')
+</div>
+
+	<script src="libs/jquery.js"></script>
+	<script src="js/scripts.min.js"></script>
+</body>
+
+</html>
