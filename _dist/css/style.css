@@ -1178,6 +1178,10 @@ h1 {
     display: none;
   }
 
+  .left-footer {
+    text-align: center;
+  }
+
   .left-footer__logo {
     width: 150px;
     margin: 0 auto;
