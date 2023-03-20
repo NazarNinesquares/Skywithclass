@@ -42,4 +42,6 @@ $(function() {
 		$('.result__item.content').removeClass('_active');
 		$('.result__item.thanks').addClass('_active');
 	})
+
+	
 })
