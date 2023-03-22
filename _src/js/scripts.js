@@ -5473,7 +5473,7 @@ $(function() {
 		$('.result__item.thanks').addClass('_active');
 	})
 
-	airports = airports.map(el=>el.text+=' ('+el.id+')')
+	airports = airports.map(el=>el.text+=` (${el.id})`)
 
 	$(".autocomplete-from").select2({
 		data: airports,
