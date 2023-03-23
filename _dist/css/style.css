@@ -201,11 +201,11 @@ h1 {
 }
 
 .select2-dropdown {
-  border: 1px solid #f79e1b;
-  background: #000000cc;
+  border: 1px solid #f79e1b !important;
+  background-color: #000000cc !important;
   -webkit-backdrop-filter: blur(25px);
           backdrop-filter: blur(25px);
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 15px 15px !important;
   overflow: hidden;
 }
 
@@ -224,7 +224,7 @@ h1 {
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field {
-  border: 1px solid #f79e1b;
+  border: 1px solid #f79e1b !important;
   color: #fff;
   font: 600 14px/1.5 "Poppins";
 }
@@ -235,11 +235,11 @@ h1 {
 }
 
 .select2-container--default .select2-results__option--selected {
-  background-color: #f79e1b;
+  background-color: #f79e1b !important;
 }
 
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-  background-color: #ac6c0d;
+  background-color: #ac6c0d !important;
 }
 
 .header {
