@@ -4743,13 +4743,12 @@ $(function() {
 	$(".autocomplete-from").select2({
 		data: airports,
 		placeholder: 'From',
-	}).on('select2:select', function (e) {
-		console.log(e.params)
-	});
+		minimumInputLength: 3,
+	})
+
 	$(".autocomplete-to").select2({
 		data: airports,
 		placeholder: 'To',
-	}).on('select2:select', function (e) {
-		console.log(e.params)
-	});
+		minimumInputLength: 3,
+	})
 })
