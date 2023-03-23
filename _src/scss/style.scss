@@ -42,10 +42,50 @@ h1 {
 	font: 700 48px/1.29 'Poppins';
 }
 
+//< ================================= >\\
+
+.select2-container, .select2-search__field {
+	color: #000;
+}
+
+
+.bottom-content__submit p {
+	margin: 0;
+	height: 100%;
+}
+
+.wpcf7-not-valid-tip {
+	display: inline-block;
+	margin-top: 5px;
+	font: 600 13px/1.5 'Poppins';
+}
+
+.select2-container--default span.select2-selection--single {
+	background-color: transparent;
+	border: none;
+}
+
+.select2-container--default span.select2-selection--single .select2-selection__rendered {
+	color: #fff;
+	font: 600 18px/1.5 'Poppins';
+}
+
+.select2-container--default span.select2-selection--single .select2-selection__arrow {
+	display: none;
+}
+
+.select2-container {
+	max-width: 100%;
+}
+
 @media (max-width: 1440px) {
 
 	h1 {
 		font-size: 36px;
+	}
+
+	.select2-container--default span.select2-selection--single .select2-selection__rendered {
+		font-size: 14px;
 	}
 }
 
@@ -60,6 +100,10 @@ h1 {
 
 	h1 {
 		font-size: 20px;
+	}
+
+	.select2-container--default span.select2-selection--single .select2-selection__rendered {
+		font-size: 16px;
 	}
 }
 
@@ -994,12 +1038,13 @@ h1 {
 
 		// .form-item__input
 		&__input {
-			margin-right: 15px;
+			margin-right: 10px;
 
 			// .form-item__input img
 			& img {
-				width: 24px;
-				height: 21px;
+				width: 18px;
+				height: 15px;
+				margin-left: 5px;
 			}
 
 			// .form-item__input input
@@ -1009,7 +1054,7 @@ h1 {
 
 			// .form-item__input:not(:last-child)
 			&:not(:last-child) {
-				padding-right: 25px;
+				padding-right: 10px;
 			}
 
 			// .form-item__input select
@@ -1571,8 +1616,4 @@ h1 {
 			height: 50px;
 		}
 	}
-}
-
-.select2-container, .select2-search__field {
-	color: #000;
 }

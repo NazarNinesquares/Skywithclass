@@ -4733,7 +4733,7 @@ $(function() {
 		$('.result__item.content').addClass('_active');
 	})
 
-	$(document).addEventListener('wpcf7submit', function e() {
+	$(document).on('wpcf7submit', function e() {
 		$('.result__item.content').removeClass('_active');
 		$('.result__item.thanks').addClass('_active');
 	})
