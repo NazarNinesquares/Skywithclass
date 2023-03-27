@@ -1014,7 +1014,7 @@ h1 {
   max-width: 100%;
 }
 
-.start-tab__item #form-box textarea {
+.right-start #form-box textarea {
   background: rgba(0, 0, 0, 0);
   font: 600 18px/1.5 Poppins;
   color: #D8D8D8;
@@ -1022,27 +1022,27 @@ h1 {
   margin: 0;
 }
 
-.start-tab__item #form-box textarea::-webkit-input-placeholder {
-  color: #999;
+.right-start #form-box textarea::-webkit-input-placeholder {
+  color: #ffff;
 }
 
-.start-tab__item #form-box textarea::-moz-placeholder {
-  color: #999;
+.right-start #form-box textarea::-moz-placeholder {
+  color: #ffff;
 }
 
-.start-tab__item #form-box textarea:-ms-input-placeholder {
-  color: #999;
+.right-start #form-box textarea:-ms-input-placeholder {
+  color: #ffff;
 }
 
-.start-tab__item #form-box textarea::-ms-input-placeholder {
-  color: #999;
+.right-start #form-box textarea::-ms-input-placeholder {
+  color: #ffff;
 }
 
-.start-tab__item #form-box textarea::placeholder {
-  color: #999;
+.right-start #form-box textarea::placeholder {
+  color: #ffff;
 }
 
-.start-tab__item #form-box .select2-selection--multiple {
+.right-start #form-box .select2-selection--multiple {
   background: rgba(0, 0, 0, 0);
   padding: 0;
   border: none !important;

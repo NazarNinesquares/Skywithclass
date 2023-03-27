@@ -1681,7 +1681,7 @@ h1 {
 
 
 
-.start-tab__item{
+.right-start{
 	#form-box{
 		textarea{
 			background: rgba($color: #000000, $alpha: .0);
@@ -1690,7 +1690,7 @@ h1 {
 			height: 23px;
 			margin: 0;
 			&::placeholder{
-				color: #999;
+				color: #ffff;
 			}
 		}
 		.select2-selection--multiple{
