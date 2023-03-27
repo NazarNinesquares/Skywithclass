@@ -1703,7 +1703,7 @@ h1 {
 			font: 600 18px/1.5 Poppins;
 		}
 
-		.select2-selection__choice{
+		.select2-container--default .select2-selection--multiple .select2-selection__choice{
 			background-color: rgba($color: #000000, $alpha: .0) !important;
 			border: none ;
 			color: #ffff ;
@@ -1712,7 +1712,6 @@ h1 {
 				display: none;
 			}
 		}
-
 		
 	}
 
