@@ -1679,30 +1679,28 @@ h1 {
 	max-width: 100%;
 }
 
-textarea{
-	background-color: none;
-	font-family: inherit;
-	font-size: inherit;
-}
+
 
 .start-tab__item{
-	textarea{
-		background: rgba($color: #000000, $alpha: .0);
-		font: 600 18px/1.5 Poppins;
-		color: #D8D8D8;
-		height: 23px;
-		margin: 0;
-		&::placeholder{
-			color: #999;
+	#form-box{
+		.select2-search__field{
+			background: rgba($color: #000000, $alpha: .0);
+			font: 600 18px/1.5 Poppins;
+			color: #D8D8D8;
+			height: 23px;
+			margin: 0;
+			&::placeholder{
+				color: #999;
+			}
 		}
-	}
-	.select2-selection--multiple{
-		background: rgba($color: #000000, $alpha: .0);
-		padding: 0;
-		border: none !important;
-		outline: none;
-		margin: 0;
-		font: 600 18px/1.5 Poppins;
+		.select2-selection--multiple{
+			background: rgba($color: #000000, $alpha: .0);
+			padding: 0;
+			border: none !important;
+			outline: none;
+			margin: 0;
+			font: 600 18px/1.5 Poppins;
+		}
 	}
 
 
