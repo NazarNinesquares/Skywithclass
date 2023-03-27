@@ -1006,6 +1006,57 @@ h1 {
   background: #b77613;
 }
 
+.result .result__item {
+  margin-top: 100px;
+}
+
+.center-footer__text {
+  max-width: 100%;
+}
+
+textarea {
+  background-color: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.start-tab__item textarea {
+  background: rgba(0, 0, 0, 0);
+  font: 600 18px/1.5 Poppins;
+  color: #D8D8D8;
+  height: 23px;
+  margin: 0;
+}
+
+.start-tab__item textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+.start-tab__item textarea::-moz-placeholder {
+  color: #999;
+}
+
+.start-tab__item textarea:-ms-input-placeholder {
+  color: #999;
+}
+
+.start-tab__item textarea::-ms-input-placeholder {
+  color: #999;
+}
+
+.start-tab__item textarea::placeholder {
+  color: #999;
+}
+
+.start-tab__item .select2-selection--multiple {
+  background: rgba(0, 0, 0, 0);
+  padding: 0;
+  border: none !important;
+  outline: none;
+  margin: 0;
+  font: 600 18px/1.5 Poppins;
+}
+
 @media (max-width: 1440px) {
   h1 {
     font-size: 36px;

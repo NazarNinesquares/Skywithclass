@@ -4705,6 +4705,10 @@ window.airports = [{text: "Anaa", id: "AAA",}, {text: "El Arish", id: "AAC",}, {
 	id: "ZZU",
 }, {text: "Winchester", id: "OKV",}, {text: "Beijing", id: "PKX",}]
 
+airports.unshift({ id: '', text: '' });
+
+
+
 $(function() {
 
 	$('.start-tab-nav__item').on('click', function () {
@@ -4744,11 +4748,17 @@ $(function() {
 		data: airports,
 		placeholder: 'From',
 		minimumInputLength: 3,
-	})
+		multiple: true,
+		autocomplete: 'off',
+		maximumSelectionSize: 1,
+	}).val(null).trigger('change')
 
 	$(".autocomplete-to").select2({
 		data: airports,
 		placeholder: 'To',
 		minimumInputLength: 3,
-	})
+		multiple: true,
+		autocomplete: 'off',
+		maximumSelectionSize: 1,
+	}).val(null).trigger('change')
 })
