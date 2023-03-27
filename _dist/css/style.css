@@ -1051,6 +1051,17 @@ h1 {
   font: 600 18px/1.5 Poppins;
 }
 
+.right-start #form-box .select2-selection__choice {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none;
+  color: #ffff;
+  padding-left: 0;
+}
+
+.right-start #form-box .select2-selection__choice .select2-selection__choice__remove {
+  display: none;
+}
+
 @media (max-width: 1440px) {
   h1 {
     font-size: 36px;
