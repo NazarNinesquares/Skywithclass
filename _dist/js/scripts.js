@@ -4797,4 +4797,16 @@ $(function () {
     if (urlParams.get('to')) {
         $('.content__bottom #airport-to').val(urlParams.get('to'));
     }
+
+    if (urlParams.get('start')) {
+        $('.content__bottom #airport-start').val(urlParams.get('start'));
+    }
+
+    if (urlParams.get('end')) {
+        $('.content__bottom #airport-end').val(urlParams.get('end'));
+    }
+
+    if (urlParams.get('passenger')) {
+        $('.content__bottom #airport-passenger').val(urlParams.get('passenger'));
+    }
 })
