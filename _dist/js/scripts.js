@@ -4748,6 +4748,7 @@ $(function() {
 		data: airports,
 		placeholder: 'From',
 		minimumInputLength: 3,
+		maximumSelectionLength: 1,
 		multiple: true,
 		autocomplete: 'off',
 		maximumSelectionSize: 1,
@@ -4760,5 +4761,6 @@ $(function() {
 		multiple: true,
 		autocomplete: 'off',
 		maximumSelectionSize: 1,
+		maximumSelectionLength: 1,
 	}).val(null).trigger('change')
 })
