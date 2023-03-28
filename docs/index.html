@@ -14,7 +14,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/bootstrap-datepicker3.min.css">
-	<link href="libs/select2.min.css" rel="stylesheet"/>
+    <link href="libs/select2.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.min.css">
     <title>Skywithclass</title>
 </head>
@@ -113,7 +113,8 @@
                         <button class="start-tab-nav__item" data-tab="2">One way</button>
                     </div>
                     <div class="right-start__tab start-tab">
-                        <form  action="#" class="start-tab__item form-item _active" data-tab="1">
+                        <form action="#" id="round_direction_form" name="round_direction_form"
+                              class="start-tab__item form-item _active" data-tab="1">
                             <div id="form-box" class="form-item__inbox form-item__inbox_dual">
                                 <div class="form-item__input">
                                     <select class="autocomplete-from" data-placeholder="From" name="from">from</select>
@@ -125,13 +126,15 @@
                                 </div>
                             </div>
                             <div class="form-item__inbox form-item__inbox_dual" id="sandbox-container">
-                                <div class="input-daterange input-group"  id="datepicker">
+                                <div class="input-daterange input-group" id="datepicker">
                                     <div class="form-item__input">
-                                        <input type="text" class="input-sm form-control" placeholder="Departing" name="start"/>
+                                        <input type="text" class="input-sm form-control" placeholder="Departing"
+                                               name="start"/>
                                         <img src='img/main/date.svg' alt=''>
                                     </div>
                                     <div class="form-item__input">
-                                        <input type="text" class="input-sm form-control" placeholder="Return" name="end"/>
+                                        <input type="text" class="input-sm form-control" placeholder="Return"
+                                               name="end"/>
                                         <img src='img/main/date.svg' alt=''>
                                     </div>
                                 </div>
@@ -162,7 +165,8 @@
                                 <input type="submit" value="Find Best Deals">
                             </div>
                         </form>
-                        <form action="#" class="start-tab__item form-item" data-tab="2">
+                        <form action="#" id="one_direction_form" name="one_direction_form"
+                              class="start-tab__item form-item" data-tab="2">
                             <div id="form-box" class="form-item__inbox form-item__inbox_dual">
                                 <div class="form-item__input">
                                     <select class="autocomplete-from" name="from"></select>
@@ -296,13 +300,13 @@
 <script src="libs/select2.min.js"></script>
 <script src="js/scripts.min.js"></script>
 <script>
-    jQuery(function ($) {
-        $('.form-item__inbox_submit input').on('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            window.location.pathname = 'result.html'
-        })
-    })
+    // jQuery(function ($) {
+    //     $('.form-item__inbox_submit input').on('click', function (e) {
+    //         e.preventDefault();
+    //         e.stopPropagation();
+    //         window.location.pathname = 'result.html'
+    //     })
+    // })
 </script>
 </body>
 
