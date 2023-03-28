@@ -1042,6 +1042,10 @@ h1 {
   color: #ffff;
 }
 
+.right-start #form-box .select2-search__field {
+  color: #ffff;
+}
+
 .right-start #form-box .select2-selection--multiple {
   background: rgba(0, 0, 0, 0);
   padding: 0;
@@ -1065,6 +1069,10 @@ h1 {
 
 .right-start .form-item__input input {
   padding: 0 !important;
+}
+
+.right-start .input-daterange input {
+  text-align: left !important;
 }
 
 @media (max-width: 1440px) {
