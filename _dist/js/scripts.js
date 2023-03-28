@@ -4787,4 +4787,14 @@ $(function () {
             $(".autocomplete-to").val(obj.to).trigger('change');
         }
     }
+
+    const urlParams = new URLSearchParams(window.location.search);
+
+    if (urlParams.get('from')) {
+        $('.content__bottom #airport-from').val(urlParams.get('from'));
+    }
+
+    if (urlParams.get('to')) {
+        $('.content__bottom #airport-to').val(urlParams.get('to'));
+    }
 })
